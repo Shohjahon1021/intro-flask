@@ -16,7 +16,7 @@ def home():
         },
         {
             'name': 'orange',
-            'price': 30
+            'price': 50
         }
     ]
     return render_template('index.html', fruits=fruits)
